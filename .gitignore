@@ -1,0 +1,34 @@
+# NetBeans
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/build/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# Java
+*.class
+*.jar
+!**/lib/*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Logs generated at runtime
+hawkins.txt
+**/hawkins.txt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
